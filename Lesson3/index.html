@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Java Script Lesson 3</title>
+</head>
+<body>
+
+<div class="blockCorners">
+    <p>Верхний левый угол
+        <input type="range" id="rangeUpLeft" min="0" max="100" value="0" oninput="changeBlock()">
+    </p>
+    <p>Верхний паравый угол
+        <input type="range" id="rangeUpRight" min="0" max="100" value="0" oninput="changeBlock()">
+    </p>
+    <p>Нижний левый угол
+        <input type="range" id="rangeDownLeft" min="0" max="100" value="0" oninput="changeBlock()">
+    </p>
+    <p>Нижний паравый угол
+        <input type="range" id="rangeDownRight" min="0" max="100" value="0" oninput="changeBlock()">
+    </p>
+</div>
+<div>
+    <p>CSS код:</p>
+    <textarea id="cssText"></textarea>
+</div>
+<div id="blockResult"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
