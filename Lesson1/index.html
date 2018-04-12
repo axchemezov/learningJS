@@ -8,6 +8,41 @@
     <title>Document</title>
 </head>
 <body>
+<fieldset>
+    <legend>Как описать привязку действия к клику в Vue?</legend>
+    <div>
+        <input type="checkbox" id="answer1">
+        <label for="answer1">@click</label>
+    </div>
+    <div>
+        <input type="checkbox" id="answer2">
+        <label for="answer2">v-on:click</label>
+    </div>
+    <div>
+        <input type="checkbox" id="answer3">
+        <label for="answer3">@vclick</label>
+    </div>
+    <div>
+        <input type="checkbox" id="answer4">
+        <label for="answer4">onclick</label>
+    </div>
+    <input type="button" id="btn" value="Submit">
+</fieldset>
 
+<fieldset>
+    <legend>Когда рекомендуется фетчить данные комнонента Vue?</legend>
+    <div>
+        <input type="radio" name="question2">beforeCreate & created
+    </div>
+    <div>
+        <input type="radio" name="question2">BeforeMount & Mounted
+    </div>
+    <div>
+        <input type="radio" name="question2">Activated & Deactivated
+    </div>
+    <input type="button" id="btn2" value="Submit">
+</fieldset>
+
+<script src="main.js"></script>
 </body>
 </html>
